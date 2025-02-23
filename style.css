@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: domaine;
+    src: url(./domain.ttf);
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#main{
+    background-color: #3a3939;
+    overflow-x: hidden;
+}
+#page1{
+    height: 150vh;
+    width: 100vw;
+    background-color: #C1BAB0;
+    position: relative;
+    overflow: hidden;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+}
+#nav img{
+    height: 50px;
+    width: 30%;
+}
+#nav i{
+    font-size: 20px;
+    width: 30%;
+    text-align: right;
+}
+
+#nav h5{
+    font-size: 20px;
+    width: 30%;
+}
+
+#elems{
+    /* background-color: red; */
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+
+}
+
+#elem1{
+    height:100%;
+    width: 30%;
+    /* background-color: blue; */
+}
+#elem2{
+    height:100%;
+    width: 25%;
+    /* background-color: blue; */
+    padding: 20px 60px;
+    text-align: center;
+    border-right: 2px solid #606060;
+    border-left: 2px solid #595959;
+    /* overflow: hidden; */
+}
+#elem3{
+    height:100%;
+    width: 30%;
+    /* background-color: blue; */
+}
+#elem1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#elem3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+#image-div:hover img{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+#elem1 h1{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: canopee;
+}
+#elem3 h1{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: canopee;
+} 
+#elem1 h1 span{
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+}
+#elem1 p{
+    font-size: 22px;
+    font-family: domaine;
+}
+
+#elem3 p{
+    font-size: 22px;
+    font-family: domaine;
+}
+#elem3 h1 span{
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+}
+#elem2 h2{
+    font-family: canopee;
+    font-size:60px;
+    font-weight: 100;
+}
+#elem2 h3{
+    font-family: canopee;
+    font-size:30px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+#elem2 h5{
+    font-family: canopee;
+    font-size: 20px;
+    font-weight: 100;
+    color: #606060;
+}
+
+#mir{
+    font-size: 550px;
+    letter-spacing: -16px;
+    font-weight: 100;
+    font-family: canopee;
+    background-color: #1C1C19;
+    color: #C4BCB3;
+    line-height: 600px;
+    width: 96%;
+    margin-left: 2%;
+}
